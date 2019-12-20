@@ -24,9 +24,6 @@ function show() {
   player = createSprite(mouseX,mouseY,player_x, player_y);
    var s = createSprite(width/2, height/2, 5, 5);
   player.shapeColor = "black";
-  if(player.overlap(s)){
-    player_x = player_x+1;
-    player_y = player_y+1;
 
   }
 }
